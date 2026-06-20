@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://iwwvemj8vje4"]
+
+[ext_resource type="Script" uid="uid://w4xtlt4tddp3" path="res://src/ui/components/skill_button.gd" id="1_1gpi1"]
+
+[node name="SkillButton" type="Button" unique_id=941850026]
+custom_minimum_size = Vector2(250, 50)
+offset_right = 250.0
+offset_bottom = 50.0
+theme_override_constants/icon_max_width = 32
+alignment = 0
+script = ExtResource("1_1gpi1")

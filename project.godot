@@ -11,8 +11,21 @@ config_version=5
 [application]
 
 config/name="Untitled Idle Project"
-config/features=PackedStringArray("4.6", "GL Compatibility")
+run/main_scene="uid://cns873uoeiv03"
+config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*uid://dtjqt7pq5dqwc"
+SkillManager="*uid://5m7g1meo4h3g"
+InventoryManager="*uid://c4iy1a5rpq6dc"
+SaveManager="*uid://ddidhb44hv2tg"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
 
 [physics]
 

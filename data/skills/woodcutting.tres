@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SkillData" format=3 uid="uid://d025hrfqdijak"]
+
+[ext_resource type="Script" uid="uid://but201o6m1bqj" path="res://src/resources/skill_data.gd" id="1_cunvr"]
+[ext_resource type="Texture2D" uid="uid://m235ejkjltpu" path="res://assets/art/ui/icons/noun-axe-6524294.svg" id="1_oknh2"]
+
+[resource]
+script = ExtResource("1_cunvr")
+display_name = "Woodcutting"
+icon = ExtResource("1_oknh2")
+description = "Chop trees to obtain logs."
+metadata/_custom_type_script = "uid://but201o6m1bqj"

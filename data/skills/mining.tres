@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SkillData" format=3 uid="uid://dafxa4pafnih4"]
+
+[ext_resource type="Texture2D" uid="uid://bjo2b43quo04k" path="res://assets/art/ui/icons/noun-pickaxe-8408143.svg" id="1_hiq2r"]
+[ext_resource type="Script" uid="uid://but201o6m1bqj" path="res://src/resources/skill_data.gd" id="1_ku4b4"]
+
+[resource]
+script = ExtResource("1_ku4b4")
+display_name = "Mining"
+icon = ExtResource("1_hiq2r")
+description = "Mine rocks to obtain ores."
+metadata/_custom_type_script = "uid://but201o6m1bqj"

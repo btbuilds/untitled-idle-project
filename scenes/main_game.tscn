@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cns873uoeiv03"]
+
+[ext_resource type="PackedScene" uid="uid://4iolxuwgdigj" path="res://src/ui/panels/sidebar.tscn" id="1_s3esy"]
+
+[node name="MainGame" type="Node" unique_id=2001932386]
+
+[node name="Background" type="CanvasLayer" parent="." unique_id=1137261239]
+
+[node name="ColorRect" type="ColorRect" parent="Background" unique_id=334172050]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.23137255, 0.18039216, 0.48235294, 0.6784314)
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1746946977]
+
+[node name="Sidebar" parent="UI" unique_id=761441499 instance=ExtResource("1_s3esy")]
+offset_left = 20.0
+offset_top = 100.0
+offset_right = 60.0
+offset_bottom = 140.0
